@@ -266,7 +266,7 @@ searchButton.addEventListener('click', async (e) => {
 
     try {
         // SỬA ĐỔI: Cập nhật URL sang cổng 8000 của FastAPI
-        const response = await fetch('https://foodiepro-api.onrender.com/recommend', {
+        const response = await fetch('https://foodiepro-v1.onrender.com//recommend', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ query: query, location: location })
